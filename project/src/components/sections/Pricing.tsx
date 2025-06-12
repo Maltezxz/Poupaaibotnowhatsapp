@@ -1,6 +1,6 @@
 import { FC, useState, useEffect } from 'react';
 import Button from '../ui/Button';
-import { Check, ArrowRight, Loader2, User, LogOut } from 'lucide-react';
+import { Check, ArrowRight, Loader2, User, LogOut, MessageCircle } from 'lucide-react';
 import { products } from '../../stripe-config';
 import { createCheckoutSession } from '../../lib/stripe';
 import { supabase } from '../../lib/supabase';
@@ -196,7 +196,24 @@ const Pricing: FC = () => {
                   <Check className="text-primary flex-shrink-0 mt-1" size={18} />
                   <span>Suporte prioritário</span>
                 </li>
+                <li className="flex items-start gap-2">
+                  <Check className="text-primary flex-shrink-0 mt-1" size={18} />
+                  <span>Acesso ao número de WhatsApp do Poupaai</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="text-primary flex-shrink-0 mt-1" size={18} />
+                  <span>Chat direto com o assistente financeiro</span>
+                </li>
               </ul>
+              
+              <div className="bg-primary-light/10 p-4 rounded-lg mb-6">
+                <div className="flex items-start gap-3">
+                  <MessageCircle className="text-primary flex-shrink-0 mt-1" size={20} />
+                  <p className="text-sm text-gray-700">
+                    Após a compra, você receberá acesso imediato ao número de WhatsApp do Poupaai e poderá começar a usar o chat para gerenciar suas finanças.
+                  </p>
+                </div>
+              </div>
               
               {isAuthenticated ? (
                 <div className="space-y-4">
