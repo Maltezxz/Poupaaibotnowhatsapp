@@ -5,9 +5,9 @@ const Benefits: FC = () => {
   return (
     <section className="section bg-gray-50">
       <div className="container-custom">
-        <h2 className="section-title">Benefícios do Poupai</h2>
+        <h2 className="section-title">Benefícios do poupa.ai</h2>
         <p className="section-subtitle">
-          Descubra como o Poupai pode transformar o controle das suas finanças pessoais.
+          Descubra como o poupa.ai pode transformar o controle das suas finanças pessoais.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12 mt-12">
@@ -84,7 +84,7 @@ const Benefits: FC = () => {
             <div>
               <h3 className="text-xl font-semibold mb-2">Inteligência artificial</h3>
               <p className="text-gray-600">
-                O Poupai aprende com seus hábitos de gasto e oferece recomendações personalizadas.
+                O poupa.ai aprende com seus hábitos de gasto e oferece recomendações personalizadas.
               </p>
             </div>
           </div>

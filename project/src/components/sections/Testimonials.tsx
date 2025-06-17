@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     role: 'Professora',
     avatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200',
     content:
-      'O Poupai mudou completamente minha relação com as finanças. Agora consigo acompanhar meus gastos diariamente sem perder tempo. Recomendo a todos!',
+      'O poupa.ai mudou completamente minha relação com as finanças. Agora consigo acompanhar meus gastos diariamente sem perder tempo. Recomendo a todos!',
     rating: 5,
   },
   {
@@ -26,7 +26,7 @@ const testimonials: Testimonial[] = [
     role: 'Engenheiro',
     avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200',
     content:
-      'Eu tentei vários aplicativos de finanças antes, mas o Poupai é o único que realmente uso todos os dias. É simples, rápido e eficiente.',
+      'Eu tentei vários aplicativos de finanças antes, mas o poupa.ai é o único que realmente uso todos os dias. É simples, rápido e eficiente.',
     rating: 5,
   },
   {
@@ -35,7 +35,7 @@ const testimonials: Testimonial[] = [
     role: 'Advogada',
     avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=200',
     content:
-      'Desde que comecei a usar o Poupai, consegui economizar mais de 20% do meu salário todos os meses. A visualização clara dos gastos faz toda a diferença.',
+      'Desde que comecei a usar o poupa.ai, consegui economizar mais de 20% do meu salário todos os meses. A visualização clara dos gastos faz toda a diferença.',
     rating: 4,
   },
   {
@@ -44,7 +44,7 @@ const testimonials: Testimonial[] = [
     role: 'Empresário',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200',
     content:
-      'A praticidade de poder registrar gastos pelo WhatsApp é incrível! O Poupai me ajudou a ter mais disciplina financeira.',
+      'A praticidade de poder registrar gastos pelo WhatsApp é incrível! O poupa.ai me ajudou a ter mais disciplina financeira.',
     rating: 5,
   },
 ];
@@ -65,7 +65,7 @@ const Testimonials: FC = () => {
       <div className="container-custom">
         <h2 className="section-title">O que nossos usuários dizem</h2>
         <p className="section-subtitle">
-          Veja como o Poupai está transformando a vida financeira de pessoas reais.
+          Veja como o poupa.ai está transformando a vida financeira de pessoas reais.
         </p>
 
         <div className="relative max-w-4xl mx-auto mt-12">

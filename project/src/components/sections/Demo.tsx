@@ -43,9 +43,9 @@ const Demo: FC = () => {
       className="section bg-gray-50 py-16 md:py-24"
     >
       <div className="container-custom">
-        <h2 className="section-title">Veja como é fácil usar o Poupai</h2>
+        <h2 className="section-title">Veja como é fácil usar o poupa.ai</h2>
         <p className="section-subtitle">
-          Envie seus gastos pelo WhatsApp e deixe o Poupai cuidar do resto.
+          Envie seus gastos pelo WhatsApp e deixe o poupa.ai cuidar do resto.
         </p>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12 mt-12">
@@ -63,7 +63,7 @@ const Demo: FC = () => {
                     <MessageSquare size={20} />
                   </div>
                   <div>
-                    <h3 className="font-semibold">Poupai - Assistente</h3>
+                    <h3 className="font-semibold">poupa.ai - Assistente</h3>
                     <p className="text-xs opacity-80">online</p>
                   </div>
                 </div>
@@ -146,7 +146,7 @@ const Demo: FC = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-1">Envie seus gastos</h4>
                   <p className="text-gray-600">
-                    Basta enviar uma mensagem com a descrição e o valor do gasto. O Poupai reconhece automaticamente a categoria.
+                    Basta enviar uma mensagem com a descrição e o valor do gasto. O poupa.ai reconhece automaticamente a categoria.
                   </p>
                 </div>
               </li>
@@ -158,7 +158,7 @@ const Demo: FC = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-1">Consulte a qualquer momento</h4>
                   <p className="text-gray-600">
-                    Pergunte sobre seus gastos por categoria, período ou estabelecimento. O Poupai responde instantaneamente.
+                    Pergunte sobre seus gastos por categoria, período ou estabelecimento. O poupa.ai responde instantaneamente.
                   </p>
                 </div>
               </li>
@@ -170,7 +170,7 @@ const Demo: FC = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-1">Receba análises e insights</h4>
                   <p className="text-gray-600">
-                    O Poupai analisa seus gastos e envia dicas personalizadas para ajudar você a economizar mais.
+                    O poupa.ai analisa seus gastos e envia dicas personalizadas para ajudar você a economizar mais.
                   </p>
                 </div>
               </li>

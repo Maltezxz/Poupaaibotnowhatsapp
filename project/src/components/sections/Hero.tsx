@@ -13,7 +13,7 @@ const Hero: FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             Controle seus gastos pelo{' '}
             <span className="text-whatsapp">WhatsApp</span> com o{' '}
-            <span className="text-primary">Poupai</span>
+            <span className="text-primary">poupa.ai</span>
           </h1>
           
           <p className="text-xl text-gray-700 mb-8 md:mb-12">
@@ -32,7 +32,7 @@ const Hero: FC = () => {
                 }
               }}
             >
-              Experimentar o Poupai
+              Experimentar o poupa.ai
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
             </Button>
             
@@ -52,7 +52,7 @@ const Hero: FC = () => {
           
           <div className="mt-10 bg-white/70 backdrop-blur-sm rounded-lg p-4 shadow-custom inline-block">
             <p className="text-sm text-gray-600">
-              Mais de <span className="font-bold text-primary">10,000</span> usuários já controlam suas finanças com o Poupai!
+              Mais de <span className="font-bold text-primary">10,000</span> usuários já controlam suas finanças com o poupa.ai!
             </p>
           </div>
         </div>

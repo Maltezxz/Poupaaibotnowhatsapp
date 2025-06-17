@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MessageSquare, Menu, X } from 'lucide-react';
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container-custom flex justify-between items-center">
         <a href="#" className="flex items-center gap-2">
           <MessageSquare className="text-primary" size={32} />
-          <span className="text-2xl font-bold text-primary">Poupai</span>
+          <span className="text-2xl font-bold text-primary">poupa.ai</span>
         </a>
 
         {/* Desktop Navigation */}

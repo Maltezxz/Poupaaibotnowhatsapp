@@ -31,7 +31,7 @@ const Pricing: FC = () => {
 
     getSession();
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event: AuthChangeEvent, session: Session | null) => {
+    const { data } = supabase.auth.onAuthStateChange((_, session: Session | null) => {
       if (session && session.access_token) {
         setAccessToken(session.access_token);
         setIsAuthenticated(true);
@@ -42,7 +42,7 @@ const Pricing: FC = () => {
     });
 
     return () => {
-      subscription.unsubscribe();
+      data.subscription.unsubscribe();
     };
   }, []);
 
@@ -198,7 +198,7 @@ const Pricing: FC = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="text-primary flex-shrink-0 mt-1" size={18} />
-                  <span>Acesso ao número de WhatsApp do Poupaai</span>
+                  <span>Acesso ao número de WhatsApp do poupa.ai</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="text-primary flex-shrink-0 mt-1" size={18} />
@@ -210,7 +210,7 @@ const Pricing: FC = () => {
                 <div className="flex items-start gap-3">
                   <MessageCircle className="text-primary flex-shrink-0 mt-1" size={20} />
                   <p className="text-sm text-gray-700">
-                    Após a compra, você receberá acesso imediato ao número de WhatsApp do Poupaai e poderá começar a usar o chat para gerenciar suas finanças.
+                    Após a compra, você receberá acesso imediato ao número de WhatsApp do poupa.ai e poderá começar a usar o chat para gerenciar suas finanças.
                   </p>
                 </div>
               </div>
@@ -284,7 +284,7 @@ const Pricing: FC = () => {
         <div className="bg-white max-w-2xl mx-auto mt-12 p-6 rounded-xl shadow-sm">
           <h3 className="text-center font-semibold mb-4">Garantia de 7 dias</h3>
           <p className="text-center text-gray-600">
-            Se você não estiver satisfeito com o Poupai por qualquer motivo, basta nos avisar em até 7 dias após a assinatura e devolveremos 100% do seu dinheiro. Sem perguntas.
+            Se você não estiver satisfeito com o poupa.ai por qualquer motivo, basta nos avisar em até 7 dias após a assinatura e devolveremos 100% do seu dinheiro. Sem perguntas.
           </p>
         </div>
       </div>

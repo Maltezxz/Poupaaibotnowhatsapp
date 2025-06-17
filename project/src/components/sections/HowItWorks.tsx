@@ -5,9 +5,9 @@ const HowItWorks: FC = () => {
   return (
     <section id="how-it-works" className="section">
       <div className="container-custom">
-        <h2 className="section-title">Como o Poupai funciona</h2>
+        <h2 className="section-title">Como o poupa.ai funciona</h2>
         <p className="section-subtitle">
-          Controlar suas finanças nunca foi tão simples. Veja como o Poupai transforma sua gestão financeira.
+          Controlar suas finanças nunca foi tão simples. Veja como o poupa.ai transforma sua gestão financeira.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
@@ -29,7 +29,7 @@ const HowItWorks: FC = () => {
             </div>
             <h3 className="text-xl font-semibold mb-3">Categorização automática</h3>
             <p className="text-gray-600">
-              O Poupai categoriza automaticamente seus gastos com inteligência artificial.
+              O poupa.ai categoriza automaticamente seus gastos com inteligência artificial.
             </p>
           </div>
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageSquare, Instagram, Twitter, Facebook, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <MessageSquare className="text-primary" size={32} />
-              <span className="text-2xl font-bold text-white">Poupai</span>
+              <span className="text-2xl font-bold text-white">poupa.ai</span>
             </div>
             <p className="text-gray-400 mb-4">
               Gerencie suas finanças de forma simples e segura, enviando mensagens pelo WhatsApp.
@@ -84,8 +83,8 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:contato@poupai.com.br" className="text-gray-400 hover:text-primary transition-colors">
-                  contato@poupai.com.br
+                <a href="mailto:contato@poupa.ai" className="text-gray-400 hover:text-primary transition-colors">
+                  contato@poupa.ai
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -100,7 +99,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-500">
-            © {new Date().getFullYear()} Poupai. Todos os direitos reservados.
+            © {new Date().getFullYear()} poupa.ai. Todos os direitos reservados.
           </p>
         </div>
       </div>

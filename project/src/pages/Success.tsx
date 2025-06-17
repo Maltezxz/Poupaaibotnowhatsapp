@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Check } from 'lucide-react';
 import Button from '../components/ui/Button';
@@ -40,7 +40,7 @@ const Success = () => {
         )}
 
         <p className="text-gray-500">
-          Obrigado por escolher o Poupai. Você já pode começar a usar todos os recursos.
+          Obrigado por escolher o poupa.ai. Você já pode começar a usar todos os recursos.
         </p>
 
         <div className="mt-8">
