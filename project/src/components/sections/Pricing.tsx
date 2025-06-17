@@ -4,7 +4,7 @@ import { Check, ArrowRight, Loader2, User, LogOut, MessageCircle } from 'lucide-
 import { products } from '../../stripe-config';
 import { createCheckoutSession } from '../../lib/stripe';
 import { supabase } from '../../lib/supabase';
-import { Session, AuthChangeEvent } from '@supabase/supabase-js';
+import type { Session, AuthChangeEvent } from '@supabase/supabase-js';
 
 const Pricing: FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
